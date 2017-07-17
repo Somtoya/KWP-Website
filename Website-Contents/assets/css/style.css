@@ -1,0 +1,266 @@
+
+/* ---------------------------------------------- /*
+ * start
+/* ---------------------------------------------- */
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+
+body {
+  font: 400 12px 'Merriweather', serif;
+  color: #666;
+  overflow-x: hidden;
+}
+
+.intro{
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  padding-left: 15px;
+}
+
+.hello img{
+  margin-top: 75px;
+  position: center;
+}
+
+.social-media{
+  margin-bottom: 65px;
+  position: center;
+}
+
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
+
+  .affix ~ .container {
+     position: relative;
+     top: 200px;
+  }
+
+  .nav .active{
+    background-color: #333;
+    color: #fff;
+  }
+
+.lead{
+  margin-top: 35px;
+}
+
+.navbar-custom{
+  background-color: #fff;
+}
+
+.section-title{
+  text-align: center;
+  border-bottom: 1px outset;
+  padding-bottom: 10px;
+  text-shadow: 3px;
+}
+
+.section-subtitle{
+  font-weight:lighter;
+  font-style: oblique;
+  text-align: center;
+  padding-bottom: 35px;
+}
+.section{
+  padding-top: 12px;
+}
+.section .section-about{
+  padding-left: 7px;
+}
+
+.section-space{
+  padding-bottom: 30px;
+}
+.image-float{
+    float: left;
+    width:  250px;
+    height: 250px;
+    margin: 10px 30px 0px 45px;
+}
+
+.navbar{
+  border: none;
+}
+
+#about{
+  padding-top: 50px;
+}
+
+#work{
+  padding-top: 50px;
+}
+#contact{
+  padding-top: 50px;
+}
+
+.image-float img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  filter: grayscale(65%);
+  transition-timing-function: ease-in;
+  transition: 1s;
+}
+
+.image-float img:hover{
+  filter: grayscale(0);
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 999999; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    background-color: transparent;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modal-backdrop.in {
+    opacity: .1;
+}
+
+#vid1{
+padding-left: 31px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.lead{
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 165%;
+  padding: 10px 0px 0px 10px;
+}
+
+.contact-info{
+  margin-left: 280px;
+  margin-top: 65px;
+}
+.mailing-address{
+  margin-top: 100px;
+  margin-left: -10px;s
+}
+
+.navbar-brand{
+  color: #999999;
+}
+
+.nav.navbar-nav a{
+  color:  #999999;
+  font-size: 14px;
+}
+
+#new-york{
+  padding-top: 25px;
+}
+
+.detailsbox-text{
+  padding: 20px 0px 20px 20px;
+}
+
+#company-logo{
+    padding: 22px 0px 0px 3px;
+    opacity: 0.77;
+}
