@@ -21,13 +21,21 @@ body {
   padding-left: 15px;
 }
 
+.header-title{
+     font-family: 'Amatic SC',sans-serif;
+     font-size: 65px;
+     color: #fff;
+     text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
 .hello img{
-  margin-top: 75px;
+  margin-top: 17px;
+  margin-bottom: 5px;
   position: center;
 }
 
 .social-media{
-  margin-bottom: 65px;
+  margin-bottom: 35px;
   position: center;
 }
 
@@ -132,7 +140,7 @@ body {
 
 /* Modal Content (image) */
 .modal-content {
-    margin: auto;
+    margin: 75px 0px 0px 380px;
     display: block;
     background-color: transparent;
     width: 80%;
@@ -143,12 +151,17 @@ body {
     opacity: .1;
 }
 
-#vid1{
-padding-left: 31px;
+.centered-text{
+  text-align: center;
 }
 
+vimeo{
+padding-left: -10px;
+}
+=
+
 /* Caption of Modal Image */
-#caption {
+.caption {
     margin: auto;
     display: block;
     width: 80%;
@@ -253,7 +266,7 @@ padding-left: 31px;
 }
 
 #new-york{
-  padding-top: 25px;
+  padding-top: 2px;
 }
 
 .detailsbox-text{
@@ -263,4 +276,12 @@ padding-left: 31px;
 #company-logo{
     padding: 22px 0px 0px 3px;
     opacity: 0.77;
+}
+
+footer{
+  padding: 15px 0 5px;
+  margin-top: 30px;
+  background-color: #404040;
+  color: #fff;
+  text-align: center;
 }
