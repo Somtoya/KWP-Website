@@ -1,19 +1,12 @@
-/*
-// Get the modal
-var modal = document.getElementById('myModal1');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg');
-var modalImg = document.getElementById("vid1");
-*/
-var captionText = document.getElementsByClassName("caption");
+$('nav').affix({
+      offset: {
+        top: $('.intro').height()
+      }
+});
 
 img.onclick = function(){
-    modal.style.display = "block";
-    //modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
+    modal.style.display = "inline-block";
 }
-
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
