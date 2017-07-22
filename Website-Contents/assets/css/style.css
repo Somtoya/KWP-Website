@@ -36,6 +36,10 @@ body {
      text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
+.container{
+     
+}
+
 #perfectCentre {
   position:absolute;
   top:10%;
@@ -47,7 +51,7 @@ body {
 }
 
 .hello img{
-  margin-top: 45px;
+  margin-top: 20px;
   margin-bottom: 5px;
   text-align: center;
   height: 95%;
